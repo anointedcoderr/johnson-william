@@ -19,6 +19,8 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const linkColor = scrolled ? "#0B1F33" : "#F8F5EF";
+
   return (
     <>
       <header
@@ -37,10 +39,8 @@ export function Header() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className={cn(
-                      "text-[14px] hover:text-gold transition-colors duration-200",
-                      scrolled ? "text-navy/85" : "text-ivory/85",
-                    )}
+                    style={{ color: linkColor }}
+                    className="text-[14px] hover:text-gold transition-colors duration-200"
                   >
                     {item.label}
                   </Link>
@@ -61,9 +61,10 @@ export function Header() {
               aria-label="Open menu"
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen(true)}
+              style={{ color: linkColor }}
               className={cn(
                 "lg:hidden inline-flex h-10 w-10 items-center justify-center border transition-colors hover:border-gold hover:text-gold",
-                scrolled ? "border-navy/20 text-navy" : "border-ivory/30 text-ivory",
+                scrolled ? "border-navy/20" : "border-ivory/30",
               )}
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
