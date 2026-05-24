@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: 11 31 51;
+  --color-ivory: 248 245 239;
+  --color-gold: 176 141 87;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: #F8F5EF;
+  color: #1D1D1F;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(176, 141, 87, 0.25);
+  color: #0B1F33;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #B08D57;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Typography refinements */
+.font-serif {
+  font-feature-settings: "liga", "kern";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-libre), Georgia, serif;
+  color: #0B1F33;
+  letter-spacing: -0.005em;
+}
+
+p {
+  line-height: 1.75;
+}
+
+/* Section dividers */
+.gold-rule {
+  display: inline-block;
+  width: 44px;
+  height: 1px;
+  background: #B08D57;
+  vertical-align: middle;
+}
+
+/* Subtle grain overlay for hero */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 3px 3px;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* Hide scrollbar but keep functionality on horizontal scroll lists */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
