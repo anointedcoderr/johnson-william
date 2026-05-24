@@ -30,14 +30,17 @@ export function Header() {
         )}
       >
         <div className="mx-auto flex w-full max-w-[1200px] items-center justify-between px-5 sm:px-6 lg:px-8 h-[72px]">
-          <Logo />
+          <Logo tone={scrolled ? "dark" : "light"} />
           <nav className="hidden lg:block" aria-label="Primary">
             <ul className="flex items-center gap-9">
               {primaryNav.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-[14px] text-navy/85 hover:text-gold transition-colors duration-200"
+                    className={cn(
+                      "text-[14px] hover:text-gold transition-colors duration-200",
+                      scrolled ? "text-navy/85" : "text-ivory/85",
+                    )}
                   >
                     {item.label}
                   </Link>
@@ -48,7 +51,7 @@ export function Header() {
           <div className="flex items-center gap-3">
             <Button
               href="/book-consultation"
-              variant="primary"
+              variant={scrolled ? "primary" : "gold"}
               className="hidden md:inline-flex px-5 py-3 text-[14px]"
             >
               Book a Consultation
@@ -58,7 +61,10 @@ export function Header() {
               aria-label="Open menu"
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen(true)}
-              className="lg:hidden inline-flex h-10 w-10 items-center justify-center border border-navy/20 text-navy hover:border-gold hover:text-gold transition-colors"
+              className={cn(
+                "lg:hidden inline-flex h-10 w-10 items-center justify-center border transition-colors hover:border-gold hover:text-gold",
+                scrolled ? "border-navy/20 text-navy" : "border-ivory/30 text-ivory",
+              )}
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
                 <path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" strokeWidth="1.5" />

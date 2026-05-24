@@ -31,7 +31,7 @@ export function Hero() {
             </p>
           </FadeIn>
           <FadeIn delay={0.05}>
-            <h1 className="font-serif text-[38px] leading-[1.05] tracking-tight md:text-[56px]">
+            <h1 className="font-serif text-ivory text-[38px] leading-[1.05] tracking-tight md:text-[56px]">
               Trusted Legal Guidance
               <br />
               When the Outcome Matters

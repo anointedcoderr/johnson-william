@@ -65,7 +65,7 @@ export function SectionTitle({
   return (
     <h2
       className={cn(
-        "font-serif font-normal",
+        "font-serif font-normal text-navy",
         size === "lg" && "text-[30px] leading-[1.15] md:text-[40px]",
         size === "md" && "text-[26px] leading-[1.2] md:text-[34px]",
         className,
