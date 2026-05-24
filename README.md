@@ -1,6 +1,6 @@
-# Johnson William Law
+# The Johnson Law Group, LLC
 
-Premium website for Johnson William Law, built with Next.js, TypeScript, and Tailwind CSS.
+Premium website for The Johnson Law Group, LLC, built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Stack
 
@@ -58,8 +58,7 @@ lib/                  # Utilities
 
 ## Editing firm content
 
-Most placeholder content lives in `data/firm.ts`. Update the firm name, lawyer name, phone, address, email, and office hours there.
-
+Firm contact details, address, phone, and email live in `data/firm.ts`.
 Practice area content lives in `data/practiceAreas.ts` and is easy to edit per area.
 
 ## Credit

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: `Trusted Legal Guidance | ${firm.firmName}`,
     template: `%s | ${firm.firmName}`,
   },
-  description: `Speak with ${firm.firmName} for clear legal guidance, confidential consultation, and professional representation across family, immigration, criminal defence, real estate, business, and estate matters.`,
+  description: `Speak with ${firm.firmName} for clear legal guidance, confidential consultation, and professional representation across bankruptcy, foreclosure, pharmaceutical liability, wrongful death, personal injury, and truck accident matters in Maryland.`,
   openGraph: {
     title: `Trusted Legal Guidance | ${firm.firmName}`,
     description: `Speak with ${firm.firmName} for clear legal guidance and confidential consultation.`,

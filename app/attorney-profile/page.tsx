@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 };
 
 const focus = [
-  "Family Law",
-  "Immigration Law",
-  "Criminal Defence",
-  "Real Estate Law",
-  "Business Law",
-  "Estate Planning",
+  "Bankruptcy",
+  "Foreclosure",
+  "Pharmaceutical Liability",
+  "Wrongful Death",
+  "Personal Injury",
+  "Truck Accidents",
 ];
 
 export default function AttorneyProfilePage() {

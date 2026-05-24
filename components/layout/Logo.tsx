@@ -15,9 +15,9 @@ export function Logo({ tone = "dark" }: { tone?: "dark" | "light" }) {
     >
       <span
         style={{ color: mainColor, borderColor }}
-        className="flex h-9 w-9 items-center justify-center border font-serif text-[14px] tracking-[0.05em] transition-colors group-hover:!border-gold"
+        className="flex h-9 w-9 items-center justify-center border font-serif text-[13px] tracking-[0.05em] transition-colors group-hover:!border-gold"
       >
-        JW
+        JLG
       </span>
       <span className="flex flex-col leading-tight">
         <span style={{ color: mainColor }} className="font-serif text-[17px]">

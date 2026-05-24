@@ -16,12 +16,12 @@ export const footerLinks = {
     { label: "Resources", href: "/resources" },
   ],
   services: [
-    { label: "Family Law", href: "/practice-areas/family-law" },
-    { label: "Immigration Law", href: "/practice-areas/immigration-law" },
-    { label: "Criminal Defence", href: "/practice-areas/criminal-defence" },
-    { label: "Real Estate Law", href: "/practice-areas/real-estate-law" },
-    { label: "Business Law", href: "/practice-areas/business-law" },
-    { label: "Estate Planning", href: "/practice-areas/estate-planning" },
+    { label: "Bankruptcy", href: "/practice-areas/bankruptcy" },
+    { label: "Foreclosure", href: "/practice-areas/foreclosure" },
+    { label: "Pharmaceutical Liability", href: "/practice-areas/pharmaceutical-liability" },
+    { label: "Wrongful Death", href: "/practice-areas/wrongful-death" },
+    { label: "Personal Injury", href: "/practice-areas/personal-injury" },
+    { label: "Truck Accidents", href: "/practice-areas/truck-accidents" },
   ],
   contact: [
     { label: "Book a Consultation", href: "/book-consultation" },
