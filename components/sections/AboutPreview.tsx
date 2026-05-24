@@ -47,7 +47,7 @@ export function AboutPreview() {
             </div>
             <div className="mt-10">
               <Button href="/attorney-profile" variant="outline">
-                Meet the Attorney
+                Meet the Attorneys
                 <ArrowIcon />
               </Button>
             </div>

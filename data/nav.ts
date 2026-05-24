@@ -2,7 +2,7 @@ export const primaryNav = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Practice Areas", href: "/practice-areas" },
-  { label: "Attorney", href: "/attorney-profile" },
+  { label: "Our Attorneys", href: "/attorney-profile" },
   { label: "Resources", href: "/resources" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
@@ -11,7 +11,7 @@ export const primaryNav = [
 export const footerLinks = {
   firm: [
     { label: "About the Firm", href: "/about" },
-    { label: "Attorney Profile", href: "/attorney-profile" },
+    { label: "Our Attorneys", href: "/attorney-profile" },
     { label: "Client Approach", href: "/client-approach" },
     { label: "Resources", href: "/resources" },
   ],

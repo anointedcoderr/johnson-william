@@ -1,7 +1,7 @@
 export const firm = {
   firmName: "The Johnson Law Group, LLC",
   shortName: "Johnson Law Group",
-  lawyerName: "Lead Attorney",
+  lawyerName: "William C. Johnson, Jr.",
   attorneyTitle: "Principal Attorney",
   tagline: "Trusted legal guidance when the outcome matters.",
   phone: "(301) 477-3450",
